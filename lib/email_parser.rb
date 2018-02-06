@@ -20,4 +20,5 @@ end
 
 test = EmailParser.new("joe@aol.com, mike@gmail.com")
 
-test.parse
+out = test.parse
+puts out
