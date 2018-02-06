@@ -10,8 +10,7 @@ class EmailParser
   attr_accessor :unformatted
 
   def self.parse
-    #@unformatted.split(/[\s,]/).uniq
-    puts "TEST"
+    @unformatted.split(/[\s,]/).uniq
   end
 
   def initialize(emails)
