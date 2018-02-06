@@ -9,7 +9,7 @@ class EmailParser
   @emails = []
 
   def self.parse
-    @unformatted.split(/[\s,]/).uniq
+    #@unformatted.split(/[\s,]/).uniq
     puts "TEST"
   end
 
