@@ -14,9 +14,6 @@ class EmailParser
 
   def self.parse
     @unformatted.split(/[\s,]).uniq
-
   end
-
-
 
 end
