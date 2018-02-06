@@ -17,8 +17,3 @@ class EmailParser
   end
 
 end
-
-test = EmailParser.new("joe@aol.com, mike@gmail.com")
-
-out = test.parse
-puts out
