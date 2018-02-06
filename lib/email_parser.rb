@@ -6,7 +6,8 @@
 class EmailParser
 
   attr_accessor :unformatted
-  
+  @unformatted = []
+
 
   def self.parse
     @unformatted.split(/[\s,]/).uniq
