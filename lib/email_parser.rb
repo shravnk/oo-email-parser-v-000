@@ -10,6 +10,7 @@ class EmailParser
 
   def self.parse
     @unformatted.split(/[\s,]/).uniq
+    puts "TEST"
   end
 
   def initialize(emails)
